@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "swill",
+  "version": "1.0",
+  "name": "Swill Client",
+  "description": "Full cheat mod with custom hitboxes, killaura damage, anti-bot, auto-reconnect",
+  "authors": ["Swill Way"],
+  "contact": { "telegram": "t.me/Swill_Way" },
+  "environment": "client",
+  "entrypoints": { "client": ["me.swill.SwillClient"] },
+  "mixins": ["mixins.swill.json"],
+  "depends": { "fabricloader": ">=0.15.11", "minecraft": "1.26.2" }
+}
